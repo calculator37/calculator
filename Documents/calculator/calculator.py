@@ -14,10 +14,10 @@ while True:
     num1 = float(input("Enter operand #1: "))
     num2 = float(input("Enter operand #2: "))
 
-  if choice == 1:
-    print("Result:", num1 + num2)
+    if choice == 1:
+        print("Result:", num1+num2) #addition bug fixed
     elif choice == 2:
-        print("Result:", num1 + num2)
+        print("Result:", num1 - num2)
     elif choice == 3:
         print("Result:", num1 * num2)
     elif choice == 4:
